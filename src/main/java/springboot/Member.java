@@ -2,8 +2,7 @@ package springboot;
 
 import lombok.*;
 
-@Getter @Setter @ToString
-@NoArgsConstructor @AllArgsConstructor
+@Data
 public class Member {
     private String id;
     private String name;
